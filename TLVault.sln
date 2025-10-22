@@ -1,0 +1,84 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TLVault.Wpf", "TLVault.Wpf\TLVault.Wpf\TLVault.Wpf.csproj", "{5DE76ED2-C96F-4D5B-85FF-5BC9850C11AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TLVault.Wpf.Tests", "TLVault.Wpf\TLVault.Wpf.Tests\TLVault.Wpf.Tests.csproj", "{75C75A76-E608-41BB-AEC2-80A1C95B7B62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50AAD861-2EF1-4EAB-80EB-20FECB15232C}"
+	ProjectSection(SolutionItems) = preProject
+		TLVault.Wpf\.editorconfig = TLVault.Wpf\.editorconfig
+		TLVault.Wpf\Directory.Build.props = TLVault.Wpf\Directory.Build.props
+		TLVault.Wpf\Directory.Build.targets = TLVault.Wpf\Directory.Build.targets
+		TLVault.Wpf\Directory.Packages.props = TLVault.Wpf\Directory.Packages.props
+		TLVault.Wpf\exclusions.dic = TLVault.Wpf\exclusions.dic
+		TLVault.Wpf\NuGet.config = TLVault.Wpf\NuGet.config
+		TLVault.Wpf\Settings.XamlStyler = TLVault.Wpf\Settings.XamlStyler
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{EF62C430-6899-4C85-BFFC-D71632937A3B}"
+	ProjectSection(SolutionItems) = preProject
+		TLVault.Wpf\.github\dependabot.yml = TLVault.Wpf\.github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{AC2A502B-963E-4FD6-ACCA-8F96EDD4190F}"
+	ProjectSection(SolutionItems) = preProject
+		TLVault.Wpf\.github\workflows\build_app.yml = TLVault.Wpf\.github\workflows\build_app.yml
+		TLVault.Wpf\.github\workflows\code_coverage_comment.yml = TLVault.Wpf\.github\workflows\code_coverage_comment.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{283D5927-E493-4FE1-BA44-57870AC5D16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "license", "license", "{B16EBA2C-5D60-4C8A-BAAE-1EA3DCB615B3}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{CF2FE1A1-08B2-4A13-9BF1-FE5237C499E2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo Items", "Repo Items", "{3B18E4BC-B21A-4853-B4F8-733B431D6C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLVault.Core", "TLVault.Core\TLVault.Core.csproj", "{3BBEF7FF-7CC6-4794-9D0D-2407808993FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DE76ED2-C96F-4D5B-85FF-5BC9850C11AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE76ED2-C96F-4D5B-85FF-5BC9850C11AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE76ED2-C96F-4D5B-85FF-5BC9850C11AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE76ED2-C96F-4D5B-85FF-5BC9850C11AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C75A76-E608-41BB-AEC2-80A1C95B7B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C75A76-E608-41BB-AEC2-80A1C95B7B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C75A76-E608-41BB-AEC2-80A1C95B7B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C75A76-E608-41BB-AEC2-80A1C95B7B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBEF7FF-7CC6-4794-9D0D-2407808993FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBEF7FF-7CC6-4794-9D0D-2407808993FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBEF7FF-7CC6-4794-9D0D-2407808993FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBEF7FF-7CC6-4794-9D0D-2407808993FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DE76ED2-C96F-4D5B-85FF-5BC9850C11AF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{75C75A76-E608-41BB-AEC2-80A1C95B7B62} = {283D5927-E493-4FE1-BA44-57870AC5D16A}
+		{EF62C430-6899-4C85-BFFC-D71632937A3B} = {CF2FE1A1-08B2-4A13-9BF1-FE5237C499E2}
+		{AC2A502B-963E-4FD6-ACCA-8F96EDD4190F} = {EF62C430-6899-4C85-BFFC-D71632937A3B}
+		{B16EBA2C-5D60-4C8A-BAAE-1EA3DCB615B3} = {3B18E4BC-B21A-4853-B4F8-733B431D6C0F}
+		{CF2FE1A1-08B2-4A13-9BF1-FE5237C499E2} = {3B18E4BC-B21A-4853-B4F8-733B431D6C0F}
+		{3BBEF7FF-7CC6-4794-9D0D-2407808993FF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {490F259C-CD1B-446C-A893-CD94D4954AE9}
+	EndGlobalSection
+EndGlobal
